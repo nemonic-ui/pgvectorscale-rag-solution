@@ -7,7 +7,7 @@ from timescale_vector.client import uuid_from_time
 # Initialize VectorStore
 vec = VectorStore()
 
-# Read the CSV file
+# Read the CSV file yes
 df = pd.read_csv("/home/debian/pgvector/cook/postgres/data/novacast.csv", sep=",", encoding="utf-8")
 df.columns = df.columns.str.strip()
 print(df.columns)
