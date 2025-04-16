@@ -13,7 +13,7 @@ df.columns = df.columns.str.strip()
 print(df.columns)
 
 
-# Prepare data for insertion
+# Prepare data for insertion edit
 def prepare_record(row):
     """Prepare a record for insertion into the vector store.
 
