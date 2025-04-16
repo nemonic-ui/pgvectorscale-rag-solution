@@ -95,3 +95,8 @@ target/
 # exclude data from source control by default
 # /data/
 
+data/exported_lance_data2.csv
+data/novacast.csv
+data/servers.csv
+data/wip.csv
+data/docling_data1.csv
